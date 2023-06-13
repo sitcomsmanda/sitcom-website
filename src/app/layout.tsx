@@ -8,6 +8,7 @@ export const metadata = {
   },
   description:
     "Ekspresikan kreativitas IT kamu dengan bergabung bersama komunitas SMA Negeri 2 Bandung yang terdiri dari siswa-siswa berbakat dan berminat di bidang Teknologi Informasi",
+  keywords: ["Ekskul IT", "SITCOM", "SMA Negeri 2 Bandung"],
 };
 
 export default function RootLayout({
