@@ -7,7 +7,7 @@ export const metadata = {
     default: "SITCOM",
   },
   description:
-    "Ekspresikan kreativitas IT kamu dengan bergabung bersama komunitas SMA Negeri 2 Bandung yang terdiri dari siswa-siswa berbakat dan berminat di bidang Teknologi Informasi",
+    "Ekspresikan kreativitas IT bersama komunitas SMA Negeri 2 Bandung, SITCOM. Disini, banyak siswa berbakat di bidang Teknologi Informasi! Bergabung Sekarang!",
   keywords: ["Ekskul IT", "SITCOM", "SMA Negeri 2 Bandung"],
 };
 
