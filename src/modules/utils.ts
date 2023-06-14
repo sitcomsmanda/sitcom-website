@@ -1,10 +1,10 @@
 /**
- * Format Tailwind Classes String Literal
+ * Format String Literal Classes to String Classes
  * @param str String
  * @returns String
  */
 
-export function fsc(str: String) {
+export function fslc(str: String) {
   return str
     .split("\n")
     .join("")
