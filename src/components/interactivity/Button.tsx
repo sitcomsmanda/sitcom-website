@@ -1,10 +1,12 @@
 import { fslc } from "@/modules/utils";
 import { lato } from "@/services/fonts";
+import { MouseEventHandler } from "react";
 
 type buttonArgs = {
   children: React.ReactNode;
   primary?: Boolean;
   secondary?: Boolean;
+  onClick?: MouseEventHandler;
 };
 
 const twBaseStyle = fslc(`
@@ -30,14 +32,19 @@ const twSecondaryStyle = fslc(`
   active:text-slate-300 active:border-slate-300
 `);
 
-export default function Button({ children, primary, secondary }: buttonArgs) {
+export default function Button({
+  children,
+  primary,
+  secondary,
+  onClick,
+}: buttonArgs) {
   const currentStyle = [
     twBaseStyle,
     primary ? twPrimaryStyle : secondary ? twSecondaryStyle : twDefaultStyle,
   ].join(" ");
 
   return (
-    <button type="button" className={currentStyle}>
+    <button type="button" className={currentStyle} onClick={onClick}>
       {children}
     </button>
   );
