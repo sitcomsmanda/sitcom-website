@@ -13,6 +13,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        bannerLeftRight: "bannerLeftRight 120s linear infinite",
+      },
+      keyframes: {
+        bannerLeftRight: {
+          "0%, 100%": { objectPosition: "left" },
+          "50%": { objectPosition: "right" },
+        },
+      },
     },
   },
   plugins: [],
