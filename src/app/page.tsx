@@ -1,7 +1,7 @@
 import Hero from "@/layouts/Home/Hero";
-import Profile from "@/layouts/About/Profile";
-import Testimonial from "@/layouts/About/Testimonial";
-import Highlight from "@/layouts/Documentation/Highlight";
+import About from "@/layouts/Home/About";
+import Testimonial from "@/layouts/Home/Testimonial";
+import Documentation from "@/layouts/Home/Documentation";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       </section>
 
       <section className="overflow-hidden py-20">
-        <Profile />
+        <About />
       </section>
 
       <section className="py-20 bg-gradient-radial from-blue-300 to-blue-200">
@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       <section className="overflow-hidden py-20">
-        <Highlight />
+        <Documentation />
       </section>
 
       <section className="mb-96"></section>
