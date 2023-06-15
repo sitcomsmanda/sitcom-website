@@ -3,7 +3,7 @@ import Actions from "./Actions";
 
 export default function Content() {
   return (
-    <div className="w-full flex flex-col gap-5 sm:w-1/2 lg:gap-10 2xl:w-1/3">
+    <div className="w-full flex flex-col gap-5 sm:w-1/2 sm:pr-2 lg:gap-10 2xl:w-1/3">
       <H1>
         Ekspresikan
         <br />
