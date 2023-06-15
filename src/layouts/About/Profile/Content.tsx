@@ -5,7 +5,7 @@ import { Button } from "@/components/interactivity";
 
 export default function Content() {
   return (
-    <div>
+    <div className="flex flex-col gap-5">
       <H2>Mengenal Ekskul IT Kami</H2>
 
       <H3>
