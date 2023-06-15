@@ -27,9 +27,9 @@ const twPrimaryStyle = fslc(`
 `);
 
 const twSecondaryStyle = fslc(`
-  text-slate-400 border border-offset-0 border-2 border-slate-400
-  hover:border-x-8 hover:text-slate-500 hover:border-slate-500
-  active:text-slate-300 active:border-slate-300
+  text-slate-500 border border-offset-0 border-2 border-slate-500
+  hover:border-x-8 hover:text-slate-600 hover:border-slate-600
+  active:text-slate-400 active:border-slate-400
 `);
 
 export default function Button({
