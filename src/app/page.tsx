@@ -13,7 +13,7 @@ export default function Home() {
         <Profile />
       </section>
 
-      <section className="py-20 bg-gradient-radial from-green-300 to-green-200">
+      <section className="py-20 bg-gradient-radial from-blue-300 to-blue-200">
         <Testimonial />
       </section>
 
