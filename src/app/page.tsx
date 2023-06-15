@@ -2,6 +2,7 @@ import Hero from "@/layouts/Home/Hero";
 import About from "@/layouts/Home/About";
 import Testimonial from "@/layouts/Home/Testimonial";
 import Documentation from "@/layouts/Home/Documentation";
+import Activities from "@/layouts/Home/Activities";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
 
       <section className="overflow-hidden py-20">
         <Documentation />
+      </section>
+
+      <section className="py-20 bg-gradient-radial from-green-300 to-green-200">
+        <Activities />
       </section>
 
       <section className="mb-96"></section>
