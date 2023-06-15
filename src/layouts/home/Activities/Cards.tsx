@@ -46,7 +46,7 @@ function GenerateCards(data: activitiesType[]) {
       key={x.id}
       thumbnail={GenerateImage(x.image, x.title.toString())}
       title={x.title}
-      text={x.description}
+      text={x.blurb}
     />
   ));
 }
