@@ -35,7 +35,7 @@ function GenerateImage(src: StaticImageData, alt: string) {
       src={src}
       alt={alt}
       placeholder="blur"
-      className="object-cover relative h-10"
+      className="object-cover h-20 w-full"
     />
   );
 }
