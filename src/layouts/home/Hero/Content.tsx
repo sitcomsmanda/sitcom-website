@@ -16,7 +16,7 @@ export default function Content() {
         dari siswa-siswa berbakat dan berminat di bidang Teknologi Informasi.
       </H3>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 lg:flex-row-reverse lg:gap-8">
         <Actions />
       </div>
     </>
