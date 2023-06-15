@@ -5,7 +5,7 @@ import { Button } from "@/components/interactivity";
 
 export default function Content() {
   return (
-    <>
+    <div>
       <H2>Mengenal Ekskul IT Kami</H2>
 
       <H3>
@@ -16,6 +16,6 @@ export default function Content() {
       <Link href={PATH_ABOUT} tabIndex={-1} className="w-full">
         <Button secondary>Selengkapnya</Button>
       </Link>
-    </>
+    </div>
   );
 }
