@@ -31,7 +31,7 @@ function GenerateCards(data: blurbType[]) {
 
 export default function BlurbCards() {
   return (
-    <div className="flex flex-col gap-5 justify-center items-center">
+    <div className="flex flex-col gap-5 justify-center items-center sm:flex-row lg:w-2/3 2xl:w-1/2">
       {GenerateCards(blurbs)}
     </div>
   );

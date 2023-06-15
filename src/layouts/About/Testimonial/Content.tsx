@@ -6,12 +6,16 @@ import BlurbCards from "./BlurbCards";
 
 export default function Content() {
   return (
-    <div className="flex flex-col gap-10 w-full sm:w-1/2 lg:gap-10">
+    <div className="p-4 w-full flex flex-col gap-10 sm:p-8 sm:justify-center sm:items-center xl:p-16 2xl:gap-20">
       <H2>Cerita Alumni</H2>
 
       <BlurbCards />
 
-      <Link href={PATH_MEMBER} tabIndex={-1} className="w-full">
+      <Link
+        href={PATH_MEMBER}
+        tabIndex={-1}
+        className="w-full sm:w-1/2 md:w-1/3"
+      >
         <Button secondary>Anggota Lainnya</Button>
       </Link>
     </div>
