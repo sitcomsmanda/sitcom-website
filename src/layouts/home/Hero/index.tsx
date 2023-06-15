@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Banner />
       </div>
-      <div className="relative p-4 sm:p-8 xl:p-16 z-10 min-h-screen bg-black bg-opacity-50 flex flex-col justify-center sm:flex-row items-center sm:gap-5 lg:gap-10">
+      <div className="relative p-4 sm:p-8 xl:p-16 z-10 min-h-screen bg-black bg-opacity-50 flex flex-col justify-center sm:flex-row items-center sm:gap-5 lg:gap-10 lg:justify-start">
         <Content />
       </div>
     </div>
