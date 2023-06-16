@@ -7,7 +7,7 @@ export default function Form() {
   return (
     <form
       className="w-full flex flex-col gap-5"
-      accept-charset="UTF-8"
+      acceptCharset="UTF-8"
       action="https://app.formester.com/forms/7cd5195c-db94-4131-aeed-f956094af764/submissions"
       method="POST"
     >
