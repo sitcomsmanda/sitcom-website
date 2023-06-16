@@ -17,7 +17,7 @@ export default function TextField({
 }: inputType) {
   return (
     <div className="text-base flex flex-col gap-1 w-full">
-      <label htmlFor="test">{label}</label>
+      <label htmlFor={id}>{label}</label>
       <input
         type={type}
         id={id}
