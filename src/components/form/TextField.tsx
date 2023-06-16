@@ -6,6 +6,7 @@ type inputType = {
   label: string;
   id: string;
   name: string;
+  required?: boolean;
 };
 
 export default function TextField({
@@ -14,11 +15,13 @@ export default function TextField({
   label,
   id,
   name,
+  required = false,
 }: inputType) {
   return (
     <div className="text-base flex flex-col gap-1 w-full lg:gap-2 lg:text-lg">
       <label htmlFor={id}>{label}</label>
       <input
+        required={required}
         type={type}
         id={id}
         name={name}
