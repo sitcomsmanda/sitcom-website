@@ -1,12 +1,13 @@
 import { fslc } from "@/modules/utils";
 import { lato } from "@/services/fonts";
-import { MouseEventHandler } from "react";
+import { ButtonHTMLAttributes, MouseEventHandler } from "react";
 
 type buttonArgs = {
   children: React.ReactNode;
   primary?: Boolean;
   secondary?: Boolean;
   onClick?: MouseEventHandler;
+  type?: "button" | "submit" | "reset";
 };
 
 const twBaseStyle = fslc(`
@@ -37,6 +38,7 @@ export default function Button({
   primary,
   secondary,
   onClick,
+  type = "button",
 }: buttonArgs) {
   const currentStyle = [
     twBaseStyle,
@@ -44,7 +46,7 @@ export default function Button({
   ].join(" ");
 
   return (
-    <button type="button" className={currentStyle} onClick={onClick}>
+    <button type={type} className={currentStyle} onClick={onClick}>
       {children}
     </button>
   );
