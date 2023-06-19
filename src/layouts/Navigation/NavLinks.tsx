@@ -15,9 +15,10 @@ const twStyle = fslc(`
   rounded-lg bg-slate-100
   flex flex-col items-center gap-5
   fixed left-0 right-0 -bottom-full
-  md:flex-row md:top-0
-  md:px-2 md:py-2 md:min-h-fit
+  md:static md:flex-row
+  md:px-0 md:py-0 md:min-h-fit
   md:rounded-none md:bg-transparent
+  md:gap-1
 `);
 
 export default function NavLinks() {
