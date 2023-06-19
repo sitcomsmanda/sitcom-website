@@ -7,30 +7,24 @@ import { H2 } from "@/components/typography";
 export default function NavButton() {
   const handleClick = () => {
     gsap.to("#navLinks", {
-      y: -440,
+      y: -435,
       duration: 0.5,
       ease: "power2.inOut",
     });
   };
 
   return (
-    <div className="z-40 fixed bottom-0 w-full p-4 drop-shadow-lg">
+    <div className="z-40 fixed bottom-0 w-full p-4 drop-shadow-lg md:hidden">
       <Button onClick={handleClick}>
         <H2>
           <span className="flex justify-center items-center gap-4">
             <svg
-              width="42"
-              height="28"
-              viewBox="0 0 25 25"
-              fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
               className="fill-slate-700"
             >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M3.5 8V6H21.5V8H3.5ZM3.5 13H21.5V11H3.5V13ZM3.5 18H21.5V16H3.5V18Z"
-              />
+              <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
             </svg>
           </span>
         </H2>
