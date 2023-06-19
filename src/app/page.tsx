@@ -34,8 +34,6 @@ export default function Home() {
         <section className="overflow-hidden py-20">
           <Contact />
         </section>
-
-        <section className="mb-96"></section>
       </main>
     </>
   );
