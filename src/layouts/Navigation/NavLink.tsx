@@ -1,5 +1,6 @@
 "use client";
 
+import { gsap } from "gsap";
 import Link from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";
 import { usePathname } from "next/navigation";
@@ -14,8 +15,27 @@ export default function NavLink({
 }) {
   const path = usePathname();
 
+  const handleClick = () => {
+    const mm = gsap.matchMedia();
+
+    mm.add("(max-width: 768px)", () => {
+      gsap.to("#navLinks", {
+        y: 435,
+        duration: 0.5,
+        ease: "power2.inOut",
+      });
+
+      return () => {
+        gsap.set("#navLinks", {
+          clearProps: "all",
+        });
+      };
+    });
+  };
+
   return (
     <Link
+      onClick={handleClick}
       href={href}
       className={`${
         path === href
