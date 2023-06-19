@@ -14,6 +14,12 @@ export default function NavButton() {
         duration: 0.5,
         ease: "power2.inOut",
       });
+
+      return () => {
+        gsap.set("#navLinks", {
+          clearProps: "all",
+        });
+      };
     });
   };
 

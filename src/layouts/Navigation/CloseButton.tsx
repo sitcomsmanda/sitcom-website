@@ -12,6 +12,12 @@ export default function CloseButton() {
         duration: 0.5,
         ease: "power2.inOut",
       });
+
+      return () => {
+        gsap.set("#navLinks", {
+          clearProps: "all",
+        });
+      };
     });
   };
 
