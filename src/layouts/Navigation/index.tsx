@@ -8,7 +8,7 @@ const twStyle = fslc(`
   md:flex md:justify-between
   md:px-8 xl:px-16
   md:py-2
-  md:shadow md:shadow-slate-700
+  md:shadow md:shadow-slate-400
   md:bg-slate-100
 `);
 
