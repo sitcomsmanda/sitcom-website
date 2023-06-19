@@ -15,7 +15,7 @@ export default function Navigation() {
     <nav>
       <div
         id="navLinks"
-        className="z-50 fixed min-h-screen flex flex-col gap-5 items-center bg-slate-100 left-0 right-0 -bottom-full py-5 rounded-lg px-4"
+        className="z-50 fixed min-h-screen flex flex-col gap-5 items-center bg-slate-100 left-0 right-0 -bottom-full py-5 rounded-lg px-4 md:flex-row md:top-0"
       >
         <NavLink href={PATH_HOME}>Beranda</NavLink>
         <NavLink href={PATH_ABOUT}>Tentang</NavLink>

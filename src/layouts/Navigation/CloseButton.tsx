@@ -4,10 +4,14 @@ import { gsap } from "gsap";
 
 export default function CloseButton() {
   const handleClick = () => {
-    gsap.to("#navLinks", {
-      y: 435,
-      duration: 0.5,
-      ease: "power2.inOut",
+    const mm = gsap.matchMedia();
+
+    mm.add("(max-width: 768px)", () => {
+      gsap.to("#navLinks", {
+        y: 435,
+        duration: 0.5,
+        ease: "power2.inOut",
+      });
     });
   };
 

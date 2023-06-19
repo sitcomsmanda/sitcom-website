@@ -6,10 +6,14 @@ import { H2 } from "@/components/typography";
 
 export default function NavButton() {
   const handleClick = () => {
-    gsap.to("#navLinks", {
-      y: -435,
-      duration: 0.5,
-      ease: "power2.inOut",
+    const mm = gsap.matchMedia();
+
+    mm.add("(max-width: 768px)", () => {
+      gsap.to("#navLinks", {
+        y: -435,
+        duration: 0.5,
+        ease: "power2.inOut",
+      });
     });
   };
 
