@@ -1,5 +1,6 @@
 import "./globals.css";
 import { karla } from "@/services/fonts";
+import Navigation from "@/layouts/Navigation";
 
 export const metadata = {
   title: {
@@ -18,7 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body className={karla.className}>{children}</body>
+      <body className={karla.className}>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }

@@ -9,7 +9,6 @@ import Contact from "@/layouts/Contact";
 export default function Home() {
   return (
     <>
-      <Navigation />
       <main>
         <section>
           <Hero />
