@@ -1,10 +1,21 @@
+"use client";
+
+import { gsap } from "gsap";
 import { Button } from "@/components/interactivity";
 import { H2 } from "@/components/typography";
 
 export default function NavButton() {
+  const handleClick = () => {
+    gsap.to("#navLinks", {
+      y: -440,
+      duration: 0.5,
+      ease: "power2.inOut",
+    });
+  };
+
   return (
-    <div className="z-50 fixed bottom-0 w-full p-4 drop-shadow-lg">
-      <Button>
+    <div className="z-40 fixed bottom-0 w-full p-4 drop-shadow-lg">
+      <Button onClick={handleClick}>
         <H2>
           <span className="flex justify-center items-center gap-4">
             <svg
@@ -16,8 +27,8 @@ export default function NavButton() {
               className="fill-slate-700"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M3.5 8V6H21.5V8H3.5ZM3.5 13H21.5V11H3.5V13ZM3.5 18H21.5V16H3.5V18Z"
               />
             </svg>
