@@ -18,8 +18,10 @@ const twBaseStyle = fslc(`
 `);
 
 const twDefaultStyle = fslc(`
-  text-slate-950 bg-slate-300
-  hover:bg-slate-400 active:bg-slate-200
+  shadow shadow-slate-700
+  text-slate-700 bg-slate-100
+  hover:bg-green-200 hover:text-green-800 
+  active:bg-green-100 active:text-green-700
 `);
 
 const twPrimaryStyle = fslc(`
