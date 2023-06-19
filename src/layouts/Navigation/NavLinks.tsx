@@ -18,7 +18,7 @@ const twStyle = fslc(`
   md:static md:flex-row
   md:px-0 md:py-0 md:min-h-fit
   md:rounded-none md:bg-transparent
-  md:gap-1
+  md:gap-1 lg:gap-4
 `);
 
 export default function NavLinks() {
