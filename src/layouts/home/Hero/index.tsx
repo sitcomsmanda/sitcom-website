@@ -3,7 +3,7 @@ import Content from "./Content";
 
 export default function Hero() {
   return (
-    <div className="relative min-h-screen text-white">
+    <div className="relative min-h-screen text-white mt-12">
       <div className="absolute inset-0">
         <Banner />
       </div>
