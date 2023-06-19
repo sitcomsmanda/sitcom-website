@@ -18,7 +18,7 @@ const twBaseStyle = fslc(`
 `);
 
 const twDefaultStyle = fslc(`
-  shadow shadow-slate-700
+  shadow shadow-slate-400
   text-slate-700 bg-slate-100
   hover:bg-green-200 hover:text-green-800 
   active:bg-green-100 active:text-green-700
