@@ -13,7 +13,7 @@ export default function CloseButton() {
 
   return (
     <div
-      className="transition-all duration-150 ease-in-out cursor-pointer w-full flex justify-center items-center rounded-full hover:bg-green-200 active:bg-green-100"
+      className="transition-all duration-150 ease-in-out cursor-pointer w-full py-1 flex justify-center items-center rounded-full hover:bg-green-200 active:bg-green-100"
       onClick={handleClick}
     >
       <svg
