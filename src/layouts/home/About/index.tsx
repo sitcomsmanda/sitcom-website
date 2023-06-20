@@ -1,4 +1,4 @@
-import Video from "./Video";
+import Video from "../../About/Video";
 import Content from "./Content";
 
 export default function About() {
