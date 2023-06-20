@@ -17,7 +17,7 @@ export default function Home() {
           <About />
         </section>
 
-        <section className="py-20 bg-gradient-radial from-blue-300 to-blue-200">
+        <section className="py-20 bg-gradient-radial from-blue-300 to-blue-100">
           <Testimonial />
         </section>
 
@@ -25,7 +25,7 @@ export default function Home() {
           <Documentation />
         </section>
 
-        <section className="py-20 bg-gradient-radial from-green-300 to-green-200">
+        <section className="py-20 bg-gradient-radial from-green-300 to-green-100">
           <Activities />
         </section>
 

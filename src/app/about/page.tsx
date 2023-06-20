@@ -9,7 +9,7 @@ export default function AboutPage() {
         <About />
       </section>
 
-      <section className="py-20 bg-gradient-radial from-slate-300 to-slate-200">
+      <section className="py-20 bg-gradient-radial from-slate-300 to-slate-100">
         <Purpose />
       </section>
 
