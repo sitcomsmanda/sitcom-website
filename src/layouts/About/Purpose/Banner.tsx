@@ -3,7 +3,7 @@ import purposeBanner from "@/assets/backgrounds/bg-about-section-1.jpg";
 
 export default function Banner() {
   return (
-    <div className="hidden sm:block sm:w-1/2 sm:h-[650px]">
+    <div className="hidden sm:block sm:w-1/2 sm:h-[800px]">
       <Image
         src={purposeBanner}
         alt="meja kerja"
