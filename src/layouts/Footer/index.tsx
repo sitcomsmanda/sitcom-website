@@ -9,8 +9,9 @@ const twStyle = fslc(`
   bg-slate-800 text-white
   px-4 pt-4 pb-20
   flex flex-col gap-5
-  md:px-8 md:pb-8
+  sm:px-8 sm:pt-8
   md:pb-8
+  xl:px-16
 `);
 
 export default function Footer() {
