@@ -3,7 +3,7 @@ import Form from "./Form";
 
 export default function Content() {
   return (
-    <div className="flex flex-col gap-10 w-full sm:w-1/2">
+    <div className="flex flex-col gap-10 w-full md:w-1/2">
       <div className="flex flex-col gap-5">
         <H1>Hubungi Kami</H1>
 

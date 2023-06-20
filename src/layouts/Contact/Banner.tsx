@@ -3,7 +3,7 @@ import contactBanner from "@/assets/backgrounds/bg-contact-banner.jpg";
 
 export default function Banner() {
   return (
-    <div className="w-full h-40 sm:w-1/2 sm:h-[650px]">
+    <div className="w-full h-40 md:w-1/2 md:h-[650px]">
       <Image
         src={contactBanner}
         alt="Tangan memegang ponsel pintar"
