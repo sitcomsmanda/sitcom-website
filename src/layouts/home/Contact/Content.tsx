@@ -1,5 +1,5 @@
 import { H2, H3 } from "@/components/typography";
-import Form from "./Form";
+import Form from "../../Contact/Form";
 
 export default function Content() {
   return (
