@@ -1,9 +1,9 @@
-import { H1 } from "@/components/typography";
+import Contact from "@/layouts/Contact";
 
-export default function Contact() {
+export default function ContactPage() {
   return (
-    <main className="mt-14">
-      <H1>Contact</H1>
+    <main className="pb-20 md:mt-14">
+      <Contact />
     </main>
   );
 }
