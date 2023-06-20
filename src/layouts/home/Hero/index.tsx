@@ -1,5 +1,16 @@
+import { fslc } from "@/modules/utils";
 import Banner from "./Banner";
 import Content from "./Content";
+
+const contentTwStyle = fslc(`
+  relative z-10 min-h-screen p-4
+  bg-gradient-to-r from-[#00000075] to-[#00000075]
+  flex flex-col justify-center items-center
+  sm:from-[#000000db] sm:to-[#00000000]
+  sm:flex-row sm:gap-5 sm:p-8
+  lg:gap-10 lg:justify-start
+  xl:p-16 2xl:gap-20
+`);
 
 export default function Hero() {
   return (
@@ -7,7 +18,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Banner />
       </div>
-      <div className="relative p-4 sm:p-8 xl:p-16 z-10 min-h-screen bg-black bg-opacity-50 flex flex-col justify-center sm:flex-row items-center sm:gap-5 lg:gap-10 lg:justify-start 2xl:gap-20">
+      <div className={contentTwStyle}>
         <Content />
       </div>
     </div>
