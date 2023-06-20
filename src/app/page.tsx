@@ -1,10 +1,9 @@
-import Navigation from "@/layouts/Navigation";
 import Hero from "@/layouts/Home/Hero";
 import About from "@/layouts/Home/About";
 import Testimonial from "@/layouts/Home/Testimonial";
 import Documentation from "@/layouts/Home/Documentation";
 import Activities from "@/layouts/Home/Activities";
-import Contact from "@/layouts/Contact";
+import Contact from "@/layouts/Home/Contact";
 
 export default function Home() {
   return (
