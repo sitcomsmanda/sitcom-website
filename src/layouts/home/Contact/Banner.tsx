@@ -8,7 +8,7 @@ export default function Banner() {
         src={contactBanner}
         alt="Tangan memegang ponsel pintar"
         placeholder="blur"
-        className="rounded-lg object-cover w-full h-full"
+        className="brightness-50 rounded-lg object-cover w-full h-full"
       />
     </div>
   );
