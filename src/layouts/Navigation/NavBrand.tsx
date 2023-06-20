@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function NavBrand() {
   return (
-    <div className="z-20 absolute left-0 right-0 top-0 flex justify-center items-center pt-4 md:static md:pt-0">
+    <div className="z-20 absolute left-0 right-0 top-0 flex justify-center items-center pt-8 md:static md:pt-0">
       <Image
         src={brandDark}
         alt="SITCOM Brand Logo"
