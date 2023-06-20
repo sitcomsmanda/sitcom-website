@@ -5,7 +5,7 @@ import Contact from "@/layouts/Home/Contact";
 export default function MemberPage() {
   return (
     <main>
-      <section className="pb-20 md:mt-14">
+      <section className="min-h-screen pb-20 md:mt-14">
         <Member />
       </section>
 
