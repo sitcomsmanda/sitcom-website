@@ -1,9 +1,21 @@
-import { H1 } from "@/components/typography";
+import Activities from "@/layouts/Activities";
+import Program from "@/layouts/Activities/Program";
+import Contact from "@/layouts/Home/Contact";
 
-export default function Activities() {
+export default function ActivitiesPage() {
   return (
-    <main className="mt-14">
-      <H1>Activities</H1>
+    <main>
+      <section className="min-h-screen pb-20 md:pt-14">
+        <Activities />
+      </section>
+
+      <section className="py-20 bg-gradient-radial from-green-300 to-green-100">
+        <Program />
+      </section>
+
+      <section className="py-20">
+        <Contact />
+      </section>
     </main>
   );
 }
