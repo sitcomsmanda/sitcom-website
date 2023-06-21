@@ -5,7 +5,7 @@ import Contact from "@/layouts/Home/Contact";
 export default function AboutPage() {
   return (
     <main>
-      <section className="min-h-screen pt-20 pb-20 md:mt-14">
+      <section className="py-20 md:mt-14">
         <About />
       </section>
 
