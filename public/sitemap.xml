@@ -4,32 +4,25 @@
   <url>
     <loc>https://sitcomsmanda.vercel.app/</loc>
     <lastmod>2023-06-21</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sitcomsmanda.vercel.app/about</loc>
     <lastmod>2023-06-21</lastmod>
-    <changefreq>never</changefreq>
   </url>
   <url>
     <loc>https://sitcomsmanda.vercel.app/member</loc>
     <lastmod>2023-06-21</lastmod>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://sitcomsmanda.vercel.app/documentation</loc>
     <lastmod>2023-06-21</lastmod>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://sitcomsmanda.vercel.app/activities</loc>
     <lastmod>2023-06-21</lastmod>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://sitcomsmanda.vercel.app/contact</loc>
     <lastmod>2023-06-21</lastmod>
-    <changefreq>never</changefreq>
   </url>
 </urlset>
