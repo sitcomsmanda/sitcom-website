@@ -11,7 +11,7 @@ const twStyle = fslc(`
 
 export default function Contact() {
   return (
-    <div className="">
+    <div className={twStyle}>
       <Content />
       <Banner />
     </div>
