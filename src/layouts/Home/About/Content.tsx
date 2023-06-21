@@ -2,10 +2,17 @@ import Link from "next/link";
 import { PATH_ABOUT } from "@/data/pageNavigation";
 import { H2, H3 } from "@/components/typography";
 import { Button } from "@/components/interactivity";
+import { fslc } from "@/modules/utils";
+
+const contentAboutHomeTwStyle = fslc(`
+  flex flex-col
+  gap-5 lg:gap-10
+  w-full sm:w-1/2
+`);
 
 export default function Content() {
   return (
-    <div className="flex flex-col gap-5 w-full sm:w-1/2 lg:gap-10">
+    <div className={contentAboutHomeTwStyle}>
       <H2>Mengenal Ekskul IT Kami</H2>
 
       <H3>

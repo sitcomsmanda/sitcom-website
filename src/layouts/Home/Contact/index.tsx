@@ -1,9 +1,17 @@
 import Content from "./Content";
 import Banner from "./Banner";
+import { fslc } from "@/modules/utils";
+
+const twStyle = fslc(`
+  w-full flex flex-col
+  p-4 sm:p-8 xl:p-16
+  sm:flex-row sm:justify-center sm:items-center
+  gap-10 sm:gap-5 lg:gap-10 2xl:gap-20
+`);
 
 export default function Contact() {
   return (
-    <div className="p-4 flex flex-col gap-10 sm:flex-row sm:gap-5 sm:p-8 sm:items-center lg:gap-10 xl:p-16 2xl:gap-20">
+    <div className="">
       <Content />
       <Banner />
     </div>

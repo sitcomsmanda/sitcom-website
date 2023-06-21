@@ -5,7 +5,7 @@ import Contact from "@/layouts/Home/Contact";
 export default function ActivitiesPage() {
   return (
     <main>
-      <section className="min-h-screen pb-20 md:pt-14">
+      <section className="pb-20 md:pt-14">
         <Activities />
       </section>
 
