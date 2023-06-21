@@ -1,7 +1,27 @@
-<xml version="1.0" encoding="UTF-8">
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
-<loc>htts://sitcomsmanda.vercel.app</loc>
+<loc>https://sitcomsmanda.vercel.app/</loc>
+<lastmod>2023-06-21</lastmod>
+</url>
+<url>
+<loc>https://sitcomsmanda.vercel.app/about</loc>
+<lastmod>2023-06-21</lastmod>
+</url>
+<url>
+<loc>https://sitcomsmanda.vercel.app/member</loc>
+<lastmod>2023-06-21</lastmod>
+</url>
+<url>
+<loc>https://sitcomsmanda.vercel.app/documentation</loc>
+<lastmod>2023-06-21</lastmod>
+</url>
+<url>
+<loc>https://sitcomsmanda.vercel.app/activities</loc>
+<lastmod>2023-06-21</lastmod>
+</url>
+<url>
+<loc>https://sitcomsmanda.vercel.app/contact</loc>
+<lastmod>2023-06-21</lastmod>
 </url>
 </urlset>
-</xml>
