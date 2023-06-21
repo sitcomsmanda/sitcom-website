@@ -1,9 +1,17 @@
+import { fslc } from "@/modules/utils";
 import Video from "../../About/Video";
 import Content from "./Content";
 
+const aboutHomeTwStyle = fslc(`
+  relative flex items-center
+  flex-col sm:flex-row 
+  gap-10 sm:gap-5 lg:gap-10 2xl:gap-20
+  p-4 sm:p-8 xl:p-16
+`);
+
 export default function About() {
   return (
-    <div className="relative p-4 flex flex-col items-center gap-10 sm:gap-5 sm:p-8 sm:flex-row lg:gap-10 xl:p-16 2xl:gap-20">
+    <div className={aboutHomeTwStyle}>
       <Video />
       <Content />
     </div>
